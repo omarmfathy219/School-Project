@@ -35,5 +35,25 @@ namespace School_Project.Data_Access_Layer
                 sqlconnection.Close();
             }
         }
+        //Read Data From Database Method
+        public DataTable SelectData(string stored_procedure, SqlParameter[] param)
+        {
+            SqlCommand sqlcmd = new SqlCommand();
+            sqlcmd.CommandType = CommandType.StoredProcedure;
+            sqlcmd.CommandText = stored_procedure;
+            sqlcmd.Connection = sqlconnection;
+
+            if (param != null)
+            {
+                for (int i = 0; i < param.Length; i++)
+                {
+                    sqlcmd.Parameters.Add(param[i]);
+                }
+            }
+            SqlDataAdapter da = new SqlDataAdapter(sqlcmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }
