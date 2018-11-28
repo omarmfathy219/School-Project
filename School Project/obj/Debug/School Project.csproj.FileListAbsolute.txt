@@ -1,0 +1,14 @@
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\School Project.exe.config
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\School Project.exe
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\School Project.pdb
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\MetroFramework.Design.dll
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\MetroFramework.dll
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.csprojAssemblyReference.cache
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Presentation_Layer.Login_Form.resources
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Properties.Resources.resources
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.csproj.GenerateResource.cache
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.csproj.CoreCompileInputs.cache
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.csproj.CopyComplete
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.exe
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.pdb
