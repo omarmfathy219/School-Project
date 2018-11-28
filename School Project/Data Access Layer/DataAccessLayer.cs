@@ -55,5 +55,19 @@ namespace School_Project.Data_Access_Layer
             da.Fill(dt);
             return dt;
         }
+        //Insert,Update,Delete into Database Method
+        public void ExecuteCommand(string stored_procedure, SqlParameter[] param)
+        {
+            SqlCommand sqlcmd = new SqlCommand();
+            sqlcmd.CommandType = CommandType.StoredProcedure;
+            sqlcmd.CommandText = stored_procedure;
+            sqlcmd.Connection = sqlconnection;
+
+            if (param != null)
+            {
+                sqlcmd.Parameters.AddRange(param);
+            }
+            sqlcmd.ExecuteNonQuery();
+        }
     }
 }
