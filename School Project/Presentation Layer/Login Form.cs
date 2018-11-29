@@ -12,10 +12,33 @@ namespace School_Project.Presentation_Layer
 {
     public partial class Login_Form : MetroFramework.Forms.MetroForm
     {
+
+        private static Login_Form frm;
+        static void frm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frm = null;
+        }
+        public static Login_Form getLoginForm
+        {
+            get
+            {
+                if (frm == null)
+                {
+                    frm = new Login_Form();
+                    frm.FormClosed += new FormClosedEventHandler(frm_FormClosed);
+                }
+                return frm;
+            }
+        }
+
         Business_Layer.CLS_LOGIN  log = new Business_Layer.CLS_LOGIN();
         public Login_Form()
         {
             InitializeComponent();
+            if (frm == null)
+            {
+                frm = this;
+            }
         }
 
         private void Login_Form_Load(object sender, EventArgs e)
@@ -36,14 +59,11 @@ namespace School_Project.Presentation_Layer
 
                 Main_Form frm = new Main_Form();
                 frm.Show();
-                Login_Form frm2 = new Login_Form();
             }
             else
             {
                 MessageBox.Show("LOGIN FAILED ");
             }
-            Login_Form frm3 = new Login_Form();
-            frm3.Close();
         }
     }
 }
