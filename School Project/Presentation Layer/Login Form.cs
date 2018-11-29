@@ -33,11 +33,17 @@ namespace School_Project.Presentation_Layer
             if (Dt.Rows.Count > 0)
             {
                 MessageBox.Show("LOGIN SUCCESS ");
+
+                Main_Form frm = new Main_Form();
+                frm.Show();
+                Login_Form frm2 = new Login_Form();
             }
             else
             {
                 MessageBox.Show("LOGIN FAILED ");
             }
+            Login_Form frm3 = new Login_Form();
+            frm3.Close();
         }
     }
 }

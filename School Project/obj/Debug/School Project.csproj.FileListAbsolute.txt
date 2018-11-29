@@ -12,3 +12,4 @@ C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\Scho
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.csproj.CopyComplete
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.exe
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.pdb
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Presentation_Layer.Main_Form.resources
