@@ -102,5 +102,15 @@ namespace School_Project.Business_Layer
             DAL.Clsoe();
             return Dt;
         }
+        public DataTable Get_All_Students()
+        {
+            Data_Access_Layer.DataAccessLayer DAL = new Data_Access_Layer.DataAccessLayer();
+            SqlParameter[] param = new SqlParameter[2];
+
+            DataTable Dt = new DataTable();
+            Dt = DAL.SelectData("Get_All_Students", null);
+            DAL.Clsoe();
+            return Dt;
+        }
     }
 }

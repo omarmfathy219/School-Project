@@ -129,6 +129,7 @@
             this.manageStudentsToolStripMenuItem.Name = "manageStudentsToolStripMenuItem";
             this.manageStudentsToolStripMenuItem.Size = new System.Drawing.Size(230, 30);
             this.manageStudentsToolStripMenuItem.Text = "Students Manage";
+            this.manageStudentsToolStripMenuItem.Click += new System.EventHandler(this.manageStudentsToolStripMenuItem_Click_1);
             // 
             // addStudentToolStripMenuItem
             // 

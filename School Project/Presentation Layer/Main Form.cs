@@ -47,5 +47,11 @@ namespace School_Project.Presentation_Layer
             Add_Student frm = new Add_Student();
             frm.ShowDialog();
         }
+
+        private void manageStudentsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Manage_Students_Form frm = new Manage_Students_Form();
+            frm.ShowDialog();
+        }
     }
 }
