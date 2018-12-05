@@ -62,5 +62,29 @@ namespace School_Project.Presentation_Layer
         {
 
         }
+
+        private void Update_Click(object sender, EventArgs e)
+        {
+            Add_Student frm = new Add_Student();
+            frm.txtID.Text = this.metroGrid1.CurrentRow.Cells[0].Value.ToString();
+            frm.txtFirst_Name.Text = this.metroGrid1.CurrentRow.Cells[1].Value.ToString();
+            frm.txtLast_Name.Text = this.metroGrid1.CurrentRow.Cells[2].Value.ToString();
+            frm.txtBirthDate.Text = this.metroGrid1.CurrentRow.Cells[3].Value.ToString();
+            frm.cmboxClass.Text = this.metroGrid1.CurrentRow.Cells[4].Value.ToString();
+            frm.cmboxAcademic_Year.Text = this.metroGrid1.CurrentRow.Cells[5].Value.ToString();
+            frm.TxtPhone_Number.Text = this.metroGrid1.CurrentRow.Cells[6].Value.ToString();
+            frm.cmboxSupervisor.Text = this.metroGrid1.CurrentRow.Cells[7].Value.ToString();
+            frm.TxtAddress.Text = this.metroGrid1.CurrentRow.Cells[8].Value.ToString();
+            frm.cmboxFees.Text = this.metroGrid1.CurrentRow.Cells[9].Value.ToString();
+
+            frm.Text="Update Student Number: "+ this.metroGrid1.CurrentRow.Cells[0].Value.ToString();
+
+            frm.Ok.Text = "Update";
+            frm.state = "Update";
+            frm.txtID.ReadOnly = true;
+            frm.txtFirst_Name.TabIndex=0;
+            frm.txtID.TabIndex = 100;
+            frm.ShowDialog();
+        }
     }
 }

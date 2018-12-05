@@ -30,7 +30,7 @@
         {
             this.cmboxAcademic_Year = new MetroFramework.Controls.MetroComboBox();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.Ok = new MetroFramework.Controls.MetroButton();
             this.txtBirthDate = new MetroFramework.Controls.MetroDateTime();
             this.Address = new MetroFramework.Controls.MetroLabel();
             this.Supervisor = new MetroFramework.Controls.MetroLabel();
@@ -45,12 +45,12 @@
             this.txtFirst_Name = new MetroFramework.Controls.MetroTextBox();
             this.FirstName = new MetroFramework.Controls.MetroLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Fees = new MetroFramework.Controls.MetroLabel();
-            this.cmboxClass = new MetroFramework.Controls.MetroComboBox();
-            this.cmboxSupervisor = new MetroFramework.Controls.MetroComboBox();
-            this.cmboxFees = new MetroFramework.Controls.MetroComboBox();
             this.txtID = new MetroFramework.Controls.MetroTextBox();
             this.ID = new MetroFramework.Controls.MetroLabel();
+            this.cmboxFees = new MetroFramework.Controls.MetroComboBox();
+            this.cmboxSupervisor = new MetroFramework.Controls.MetroComboBox();
+            this.cmboxClass = new MetroFramework.Controls.MetroComboBox();
+            this.Fees = new MetroFramework.Controls.MetroLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,15 +74,15 @@
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
-            // metroButton1
+            // Ok
             // 
-            this.metroButton1.Location = new System.Drawing.Point(285, 469);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(106, 23);
-            this.metroButton1.TabIndex = 11;
-            this.metroButton1.Text = "Add";
-            this.metroButton1.UseSelectable = true;
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            this.Ok.Location = new System.Drawing.Point(285, 469);
+            this.Ok.Name = "Ok";
+            this.Ok.Size = new System.Drawing.Size(106, 23);
+            this.Ok.TabIndex = 11;
+            this.Ok.Text = "Add";
+            this.Ok.UseSelectable = true;
+            this.Ok.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // txtBirthDate
             // 
@@ -334,7 +334,7 @@
             this.groupBox1.Controls.Add(this.Fees);
             this.groupBox1.Controls.Add(this.cmboxAcademic_Year);
             this.groupBox1.Controls.Add(this.metroButton2);
-            this.groupBox1.Controls.Add(this.metroButton1);
+            this.groupBox1.Controls.Add(this.Ok);
             this.groupBox1.Controls.Add(this.txtBirthDate);
             this.groupBox1.Controls.Add(this.Address);
             this.groupBox1.Controls.Add(this.Supervisor);
@@ -357,50 +357,6 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Data:";
-            // 
-            // Fees
-            // 
-            this.Fees.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Fees.AutoSize = true;
-            this.Fees.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.Fees.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.Fees.Location = new System.Drawing.Point(31, 423);
-            this.Fees.Margin = new System.Windows.Forms.Padding(3);
-            this.Fees.Name = "Fees";
-            this.Fees.Size = new System.Drawing.Size(47, 25);
-            this.Fees.TabIndex = 24;
-            this.Fees.Text = "Fees";
-            // 
-            // cmboxClass
-            // 
-            this.cmboxClass.FormattingEnabled = true;
-            this.cmboxClass.ItemHeight = 23;
-            this.cmboxClass.Location = new System.Drawing.Point(172, 217);
-            this.cmboxClass.Name = "cmboxClass";
-            this.cmboxClass.Size = new System.Drawing.Size(186, 29);
-            this.cmboxClass.TabIndex = 5;
-            this.cmboxClass.UseSelectable = true;
-            // 
-            // cmboxSupervisor
-            // 
-            this.cmboxSupervisor.FormattingEnabled = true;
-            this.cmboxSupervisor.ItemHeight = 23;
-            this.cmboxSupervisor.Location = new System.Drawing.Point(172, 340);
-            this.cmboxSupervisor.Name = "cmboxSupervisor";
-            this.cmboxSupervisor.Size = new System.Drawing.Size(186, 29);
-            this.cmboxSupervisor.TabIndex = 8;
-            this.cmboxSupervisor.UseSelectable = true;
-            // 
-            // cmboxFees
-            // 
-            this.cmboxFees.FormattingEnabled = true;
-            this.cmboxFees.ItemHeight = 23;
-            this.cmboxFees.Location = new System.Drawing.Point(172, 423);
-            this.cmboxFees.Name = "cmboxFees";
-            this.cmboxFees.Size = new System.Drawing.Size(186, 29);
-            this.cmboxFees.TabIndex = 10;
-            this.cmboxFees.UseSelectable = true;
             // 
             // txtID
             // 
@@ -447,6 +403,50 @@
             this.ID.TabIndex = 29;
             this.ID.Text = "ID";
             // 
+            // cmboxFees
+            // 
+            this.cmboxFees.FormattingEnabled = true;
+            this.cmboxFees.ItemHeight = 23;
+            this.cmboxFees.Location = new System.Drawing.Point(172, 423);
+            this.cmboxFees.Name = "cmboxFees";
+            this.cmboxFees.Size = new System.Drawing.Size(186, 29);
+            this.cmboxFees.TabIndex = 10;
+            this.cmboxFees.UseSelectable = true;
+            // 
+            // cmboxSupervisor
+            // 
+            this.cmboxSupervisor.FormattingEnabled = true;
+            this.cmboxSupervisor.ItemHeight = 23;
+            this.cmboxSupervisor.Location = new System.Drawing.Point(172, 340);
+            this.cmboxSupervisor.Name = "cmboxSupervisor";
+            this.cmboxSupervisor.Size = new System.Drawing.Size(186, 29);
+            this.cmboxSupervisor.TabIndex = 8;
+            this.cmboxSupervisor.UseSelectable = true;
+            // 
+            // cmboxClass
+            // 
+            this.cmboxClass.FormattingEnabled = true;
+            this.cmboxClass.ItemHeight = 23;
+            this.cmboxClass.Location = new System.Drawing.Point(172, 217);
+            this.cmboxClass.Name = "cmboxClass";
+            this.cmboxClass.Size = new System.Drawing.Size(186, 29);
+            this.cmboxClass.TabIndex = 5;
+            this.cmboxClass.UseSelectable = true;
+            // 
+            // Fees
+            // 
+            this.Fees.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fees.AutoSize = true;
+            this.Fees.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.Fees.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.Fees.Location = new System.Drawing.Point(31, 423);
+            this.Fees.Margin = new System.Windows.Forms.Padding(3);
+            this.Fees.Name = "Fees";
+            this.Fees.Size = new System.Drawing.Size(47, 25);
+            this.Fees.TabIndex = 24;
+            this.Fees.Text = "Fees";
+            // 
             // Add_Student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -466,7 +466,7 @@
 
         public MetroFramework.Controls.MetroComboBox cmboxAcademic_Year;
         public MetroFramework.Controls.MetroButton metroButton2;
-        public MetroFramework.Controls.MetroButton metroButton1;
+        public MetroFramework.Controls.MetroButton Ok;
         public MetroFramework.Controls.MetroDateTime txtBirthDate;
         public MetroFramework.Controls.MetroLabel Address;
         public MetroFramework.Controls.MetroLabel Supervisor;
