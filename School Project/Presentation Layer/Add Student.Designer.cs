@@ -61,7 +61,7 @@
             this.cmboxAcademic_Year.Location = new System.Drawing.Point(172, 260);
             this.cmboxAcademic_Year.Name = "cmboxAcademic_Year";
             this.cmboxAcademic_Year.Size = new System.Drawing.Size(186, 29);
-            this.cmboxAcademic_Year.TabIndex = 22;
+            this.cmboxAcademic_Year.TabIndex = 6;
             this.cmboxAcademic_Year.UseSelectable = true;
             // 
             // metroButton2
@@ -72,6 +72,7 @@
             this.metroButton2.TabIndex = 12;
             this.metroButton2.Text = "Cancel";
             this.metroButton2.UseSelectable = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // metroButton1
             // 
@@ -378,7 +379,7 @@
             this.cmboxClass.Location = new System.Drawing.Point(172, 217);
             this.cmboxClass.Name = "cmboxClass";
             this.cmboxClass.Size = new System.Drawing.Size(186, 29);
-            this.cmboxClass.TabIndex = 25;
+            this.cmboxClass.TabIndex = 5;
             this.cmboxClass.UseSelectable = true;
             // 
             // cmboxSupervisor
@@ -388,7 +389,7 @@
             this.cmboxSupervisor.Location = new System.Drawing.Point(172, 340);
             this.cmboxSupervisor.Name = "cmboxSupervisor";
             this.cmboxSupervisor.Size = new System.Drawing.Size(186, 29);
-            this.cmboxSupervisor.TabIndex = 26;
+            this.cmboxSupervisor.TabIndex = 8;
             this.cmboxSupervisor.UseSelectable = true;
             // 
             // cmboxFees
@@ -398,7 +399,7 @@
             this.cmboxFees.Location = new System.Drawing.Point(172, 423);
             this.cmboxFees.Name = "cmboxFees";
             this.cmboxFees.Size = new System.Drawing.Size(186, 29);
-            this.cmboxFees.TabIndex = 27;
+            this.cmboxFees.TabIndex = 10;
             this.cmboxFees.UseSelectable = true;
             // 
             // txtID
@@ -426,10 +427,11 @@
             this.txtID.SelectionStart = 0;
             this.txtID.ShortcutsEnabled = true;
             this.txtID.Size = new System.Drawing.Size(186, 23);
-            this.txtID.TabIndex = 28;
+            this.txtID.TabIndex = 1;
             this.txtID.UseSelectable = true;
             this.txtID.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtID.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtID.Validated += new System.EventHandler(this.txtID_Validated);
             // 
             // ID
             // 

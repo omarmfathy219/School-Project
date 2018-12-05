@@ -46,5 +46,22 @@ namespace School_Project.Presentation_Layer
 
             MessageBox.Show("Data Added Successfully");
         }
+
+        private void txtID_Validated(object sender, EventArgs e)
+        {
+            DataTable Dt = new DataTable();
+            Dt = stud.VerfiyStudentID(Convert.ToInt32(txtID.Text));
+            if (Dt.Rows.Count > 0)
+            {
+                MessageBox.Show("This ID Already Exist","Alert",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                txtID.Focus();
+                txtID.SelectionStart = 0;
+            }
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

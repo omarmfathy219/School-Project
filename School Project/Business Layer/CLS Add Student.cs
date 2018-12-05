@@ -91,5 +91,16 @@ namespace School_Project.Business_Layer
             Data_Access_Layer.ExecuteCommand("ADD_STUDENT", param);
             Data_Access_Layer.Clsoe();
         }
+        public DataTable VerfiyStudentID(int ID)
+        {
+            Data_Access_Layer.DataAccessLayer DAL = new Data_Access_Layer.DataAccessLayer();
+            DataTable Dt = new DataTable();
+            SqlParameter[] param = new SqlParameter[1];
+            param[0] = new SqlParameter("@ID", SqlDbType.Int);
+            param[0].Value = ID;
+            Dt = DAL.SelectData("VerfiyStudentID", param);
+            DAL.Clsoe();
+            return Dt;
+        }
     }
 }
