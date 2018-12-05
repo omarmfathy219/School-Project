@@ -33,7 +33,6 @@
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.txtBirthDate = new MetroFramework.Controls.MetroDateTime();
             this.Address = new MetroFramework.Controls.MetroLabel();
-            this.txtSupervisor = new MetroFramework.Controls.MetroTextBox();
             this.Supervisor = new MetroFramework.Controls.MetroLabel();
             this.TxtAddress = new MetroFramework.Controls.MetroTextBox();
             this.TxtPhone_Number = new MetroFramework.Controls.MetroTextBox();
@@ -47,8 +46,11 @@
             this.FirstName = new MetroFramework.Controls.MetroLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Fees = new MetroFramework.Controls.MetroLabel();
-            this.txtFees = new MetroFramework.Controls.MetroTextBox();
             this.cmboxClass = new MetroFramework.Controls.MetroComboBox();
+            this.cmboxSupervisor = new MetroFramework.Controls.MetroComboBox();
+            this.cmboxFees = new MetroFramework.Controls.MetroComboBox();
+            this.txtID = new MetroFramework.Controls.MetroTextBox();
+            this.ID = new MetroFramework.Controls.MetroLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             // 
             this.cmboxAcademic_Year.FormattingEnabled = true;
             this.cmboxAcademic_Year.ItemHeight = 23;
-            this.cmboxAcademic_Year.Location = new System.Drawing.Point(172, 231);
+            this.cmboxAcademic_Year.Location = new System.Drawing.Point(172, 260);
             this.cmboxAcademic_Year.Name = "cmboxAcademic_Year";
             this.cmboxAcademic_Year.Size = new System.Drawing.Size(186, 29);
             this.cmboxAcademic_Year.TabIndex = 22;
@@ -64,7 +66,7 @@
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(407, 455);
+            this.metroButton2.Location = new System.Drawing.Point(407, 469);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(106, 23);
             this.metroButton2.TabIndex = 12;
@@ -73,16 +75,17 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(285, 455);
+            this.metroButton1.Location = new System.Drawing.Point(285, 469);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(106, 23);
             this.metroButton1.TabIndex = 11;
             this.metroButton1.Text = "Add";
             this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // txtBirthDate
             // 
-            this.txtBirthDate.Location = new System.Drawing.Point(172, 146);
+            this.txtBirthDate.Location = new System.Drawing.Point(172, 175);
             this.txtBirthDate.MinimumSize = new System.Drawing.Size(0, 29);
             this.txtBirthDate.Name = "txtBirthDate";
             this.txtBirthDate.Size = new System.Drawing.Size(186, 29);
@@ -95,42 +98,12 @@
             this.Address.AutoSize = true;
             this.Address.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.Address.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.Address.Location = new System.Drawing.Point(31, 353);
+            this.Address.Location = new System.Drawing.Point(31, 382);
             this.Address.Margin = new System.Windows.Forms.Padding(3);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(77, 25);
             this.Address.TabIndex = 18;
             this.Address.Text = "Address";
-            // 
-            // txtSupervisor
-            // 
-            // 
-            // 
-            // 
-            this.txtSupervisor.CustomButton.Image = null;
-            this.txtSupervisor.CustomButton.Location = new System.Drawing.Point(164, 1);
-            this.txtSupervisor.CustomButton.Name = "";
-            this.txtSupervisor.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtSupervisor.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtSupervisor.CustomButton.TabIndex = 1;
-            this.txtSupervisor.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtSupervisor.CustomButton.UseSelectable = true;
-            this.txtSupervisor.CustomButton.Visible = false;
-            this.txtSupervisor.Lines = new string[0];
-            this.txtSupervisor.Location = new System.Drawing.Point(172, 313);
-            this.txtSupervisor.MaxLength = 32767;
-            this.txtSupervisor.Name = "txtSupervisor";
-            this.txtSupervisor.PasswordChar = '\0';
-            this.txtSupervisor.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtSupervisor.SelectedText = "";
-            this.txtSupervisor.SelectionLength = 0;
-            this.txtSupervisor.SelectionStart = 0;
-            this.txtSupervisor.ShortcutsEnabled = true;
-            this.txtSupervisor.Size = new System.Drawing.Size(186, 23);
-            this.txtSupervisor.TabIndex = 8;
-            this.txtSupervisor.UseSelectable = true;
-            this.txtSupervisor.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtSupervisor.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // Supervisor
             // 
@@ -139,7 +112,7 @@
             this.Supervisor.AutoSize = true;
             this.Supervisor.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.Supervisor.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.Supervisor.Location = new System.Drawing.Point(31, 311);
+            this.Supervisor.Location = new System.Drawing.Point(31, 340);
             this.Supervisor.Margin = new System.Windows.Forms.Padding(3);
             this.Supervisor.Name = "Supervisor";
             this.Supervisor.Size = new System.Drawing.Size(96, 25);
@@ -161,7 +134,7 @@
             this.TxtAddress.CustomButton.UseSelectable = true;
             this.TxtAddress.CustomButton.Visible = false;
             this.TxtAddress.Lines = new string[0];
-            this.TxtAddress.Location = new System.Drawing.Point(172, 355);
+            this.TxtAddress.Location = new System.Drawing.Point(172, 384);
             this.TxtAddress.MaxLength = 32767;
             this.TxtAddress.Name = "TxtAddress";
             this.TxtAddress.PasswordChar = '\0';
@@ -191,7 +164,7 @@
             this.TxtPhone_Number.CustomButton.UseSelectable = true;
             this.TxtPhone_Number.CustomButton.Visible = false;
             this.TxtPhone_Number.Lines = new string[0];
-            this.TxtPhone_Number.Location = new System.Drawing.Point(172, 276);
+            this.TxtPhone_Number.Location = new System.Drawing.Point(172, 305);
             this.TxtPhone_Number.MaxLength = 32767;
             this.TxtPhone_Number.Name = "TxtPhone_Number";
             this.TxtPhone_Number.PasswordChar = '\0';
@@ -213,7 +186,7 @@
             this.PhoneNumber.AutoSize = true;
             this.PhoneNumber.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.PhoneNumber.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.PhoneNumber.Location = new System.Drawing.Point(31, 274);
+            this.PhoneNumber.Location = new System.Drawing.Point(31, 303);
             this.PhoneNumber.Margin = new System.Windows.Forms.Padding(3);
             this.PhoneNumber.Name = "PhoneNumber";
             this.PhoneNumber.Size = new System.Drawing.Size(132, 25);
@@ -227,7 +200,7 @@
             this.AcademicYear.AutoSize = true;
             this.AcademicYear.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.AcademicYear.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.AcademicYear.Location = new System.Drawing.Point(31, 231);
+            this.AcademicYear.Location = new System.Drawing.Point(31, 260);
             this.AcademicYear.Margin = new System.Windows.Forms.Padding(3);
             this.AcademicYear.Name = "AcademicYear";
             this.AcademicYear.Size = new System.Drawing.Size(126, 25);
@@ -241,7 +214,7 @@
             this.Class.AutoSize = true;
             this.Class.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.Class.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.Class.Location = new System.Drawing.Point(31, 192);
+            this.Class.Location = new System.Drawing.Point(31, 221);
             this.Class.Margin = new System.Windows.Forms.Padding(3);
             this.Class.Name = "Class";
             this.Class.Size = new System.Drawing.Size(52, 25);
@@ -255,7 +228,7 @@
             this.BirthDate.AutoSize = true;
             this.BirthDate.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.BirthDate.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.BirthDate.Location = new System.Drawing.Point(31, 150);
+            this.BirthDate.Location = new System.Drawing.Point(31, 179);
             this.BirthDate.Margin = new System.Windows.Forms.Padding(3);
             this.BirthDate.Name = "BirthDate";
             this.BirthDate.Size = new System.Drawing.Size(85, 25);
@@ -277,7 +250,7 @@
             this.txtLast_Name.CustomButton.UseSelectable = true;
             this.txtLast_Name.CustomButton.Visible = false;
             this.txtLast_Name.Lines = new string[0];
-            this.txtLast_Name.Location = new System.Drawing.Point(172, 111);
+            this.txtLast_Name.Location = new System.Drawing.Point(172, 140);
             this.txtLast_Name.MaxLength = 32767;
             this.txtLast_Name.Name = "txtLast_Name";
             this.txtLast_Name.PasswordChar = '\0';
@@ -299,7 +272,7 @@
             this.LastName.AutoSize = true;
             this.LastName.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.LastName.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.LastName.Location = new System.Drawing.Point(31, 109);
+            this.LastName.Location = new System.Drawing.Point(31, 138);
             this.LastName.Margin = new System.Windows.Forms.Padding(3);
             this.LastName.Name = "LastName";
             this.LastName.Size = new System.Drawing.Size(95, 25);
@@ -321,7 +294,7 @@
             this.txtFirst_Name.CustomButton.UseSelectable = true;
             this.txtFirst_Name.CustomButton.Visible = false;
             this.txtFirst_Name.Lines = new string[0];
-            this.txtFirst_Name.Location = new System.Drawing.Point(172, 62);
+            this.txtFirst_Name.Location = new System.Drawing.Point(172, 91);
             this.txtFirst_Name.MaxLength = 32767;
             this.txtFirst_Name.Name = "txtFirst_Name";
             this.txtFirst_Name.PasswordChar = '\0';
@@ -343,7 +316,7 @@
             this.FirstName.AutoSize = true;
             this.FirstName.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.FirstName.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.FirstName.Location = new System.Drawing.Point(31, 60);
+            this.FirstName.Location = new System.Drawing.Point(31, 89);
             this.FirstName.Margin = new System.Windows.Forms.Padding(3);
             this.FirstName.Name = "FirstName";
             this.FirstName.Size = new System.Drawing.Size(97, 25);
@@ -352,15 +325,17 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtID);
+            this.groupBox1.Controls.Add(this.ID);
+            this.groupBox1.Controls.Add(this.cmboxFees);
+            this.groupBox1.Controls.Add(this.cmboxSupervisor);
             this.groupBox1.Controls.Add(this.cmboxClass);
             this.groupBox1.Controls.Add(this.Fees);
-            this.groupBox1.Controls.Add(this.txtFees);
             this.groupBox1.Controls.Add(this.cmboxAcademic_Year);
             this.groupBox1.Controls.Add(this.metroButton2);
             this.groupBox1.Controls.Add(this.metroButton1);
             this.groupBox1.Controls.Add(this.txtBirthDate);
             this.groupBox1.Controls.Add(this.Address);
-            this.groupBox1.Controls.Add(this.txtSupervisor);
             this.groupBox1.Controls.Add(this.Supervisor);
             this.groupBox1.Controls.Add(this.TxtAddress);
             this.groupBox1.Controls.Add(this.TxtPhone_Number);
@@ -389,52 +364,86 @@
             this.Fees.AutoSize = true;
             this.Fees.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.Fees.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.Fees.Location = new System.Drawing.Point(31, 394);
+            this.Fees.Location = new System.Drawing.Point(31, 423);
             this.Fees.Margin = new System.Windows.Forms.Padding(3);
             this.Fees.Name = "Fees";
             this.Fees.Size = new System.Drawing.Size(47, 25);
             this.Fees.TabIndex = 24;
             this.Fees.Text = "Fees";
             // 
-            // txtFees
-            // 
-            // 
-            // 
-            // 
-            this.txtFees.CustomButton.Image = null;
-            this.txtFees.CustomButton.Location = new System.Drawing.Point(164, 1);
-            this.txtFees.CustomButton.Name = "";
-            this.txtFees.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtFees.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtFees.CustomButton.TabIndex = 1;
-            this.txtFees.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtFees.CustomButton.UseSelectable = true;
-            this.txtFees.CustomButton.Visible = false;
-            this.txtFees.Lines = new string[0];
-            this.txtFees.Location = new System.Drawing.Point(172, 396);
-            this.txtFees.MaxLength = 32767;
-            this.txtFees.Name = "txtFees";
-            this.txtFees.PasswordChar = '\0';
-            this.txtFees.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtFees.SelectedText = "";
-            this.txtFees.SelectionLength = 0;
-            this.txtFees.SelectionStart = 0;
-            this.txtFees.ShortcutsEnabled = true;
-            this.txtFees.Size = new System.Drawing.Size(186, 23);
-            this.txtFees.TabIndex = 23;
-            this.txtFees.UseSelectable = true;
-            this.txtFees.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtFees.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
             // cmboxClass
             // 
             this.cmboxClass.FormattingEnabled = true;
             this.cmboxClass.ItemHeight = 23;
-            this.cmboxClass.Location = new System.Drawing.Point(172, 188);
+            this.cmboxClass.Location = new System.Drawing.Point(172, 217);
             this.cmboxClass.Name = "cmboxClass";
             this.cmboxClass.Size = new System.Drawing.Size(186, 29);
             this.cmboxClass.TabIndex = 25;
             this.cmboxClass.UseSelectable = true;
+            // 
+            // cmboxSupervisor
+            // 
+            this.cmboxSupervisor.FormattingEnabled = true;
+            this.cmboxSupervisor.ItemHeight = 23;
+            this.cmboxSupervisor.Location = new System.Drawing.Point(172, 340);
+            this.cmboxSupervisor.Name = "cmboxSupervisor";
+            this.cmboxSupervisor.Size = new System.Drawing.Size(186, 29);
+            this.cmboxSupervisor.TabIndex = 26;
+            this.cmboxSupervisor.UseSelectable = true;
+            // 
+            // cmboxFees
+            // 
+            this.cmboxFees.FormattingEnabled = true;
+            this.cmboxFees.ItemHeight = 23;
+            this.cmboxFees.Location = new System.Drawing.Point(172, 423);
+            this.cmboxFees.Name = "cmboxFees";
+            this.cmboxFees.Size = new System.Drawing.Size(186, 29);
+            this.cmboxFees.TabIndex = 27;
+            this.cmboxFees.UseSelectable = true;
+            // 
+            // txtID
+            // 
+            // 
+            // 
+            // 
+            this.txtID.CustomButton.Image = null;
+            this.txtID.CustomButton.Location = new System.Drawing.Point(164, 1);
+            this.txtID.CustomButton.Name = "";
+            this.txtID.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtID.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtID.CustomButton.TabIndex = 1;
+            this.txtID.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtID.CustomButton.UseSelectable = true;
+            this.txtID.CustomButton.Visible = false;
+            this.txtID.Lines = new string[0];
+            this.txtID.Location = new System.Drawing.Point(172, 50);
+            this.txtID.MaxLength = 32767;
+            this.txtID.Name = "txtID";
+            this.txtID.PasswordChar = '\0';
+            this.txtID.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtID.SelectedText = "";
+            this.txtID.SelectionLength = 0;
+            this.txtID.SelectionStart = 0;
+            this.txtID.ShortcutsEnabled = true;
+            this.txtID.Size = new System.Drawing.Size(186, 23);
+            this.txtID.TabIndex = 28;
+            this.txtID.UseSelectable = true;
+            this.txtID.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtID.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // ID
+            // 
+            this.ID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ID.AutoSize = true;
+            this.ID.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.ID.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.ID.Location = new System.Drawing.Point(31, 48);
+            this.ID.Margin = new System.Windows.Forms.Padding(3);
+            this.ID.Name = "ID";
+            this.ID.Size = new System.Drawing.Size(30, 25);
+            this.ID.TabIndex = 29;
+            this.ID.Text = "ID";
             // 
             // Add_Student
             // 
@@ -458,7 +467,6 @@
         public MetroFramework.Controls.MetroButton metroButton1;
         public MetroFramework.Controls.MetroDateTime txtBirthDate;
         public MetroFramework.Controls.MetroLabel Address;
-        public MetroFramework.Controls.MetroTextBox txtSupervisor;
         public MetroFramework.Controls.MetroLabel Supervisor;
         public MetroFramework.Controls.MetroTextBox TxtAddress;
         public MetroFramework.Controls.MetroTextBox TxtPhone_Number;
@@ -472,7 +480,10 @@
         public MetroFramework.Controls.MetroLabel FirstName;
         public System.Windows.Forms.GroupBox groupBox1;
         public MetroFramework.Controls.MetroLabel Fees;
-        public MetroFramework.Controls.MetroTextBox txtFees;
         public MetroFramework.Controls.MetroComboBox cmboxClass;
+        public MetroFramework.Controls.MetroComboBox cmboxSupervisor;
+        public MetroFramework.Controls.MetroTextBox txtID;
+        public MetroFramework.Controls.MetroLabel ID;
+        public MetroFramework.Controls.MetroComboBox cmboxFees;
     }
 }
