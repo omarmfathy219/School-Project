@@ -28,5 +28,16 @@ namespace School_Project.Presentation_Layer
         {
             Close();
         }
+
+        private void txtSearch_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void AddStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student frm = new Add_Student();
+            frm.ShowDialog();
+        }
     }
 }
