@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business Layer\CLS Add Student.cs" />
     <Compile Include="Business Layer\CLS Login.cs" />
     <Compile Include="Data Access Layer\DataAccessLayer.cs" />
     <Compile Include="Presentation Layer\Add Student.cs">
