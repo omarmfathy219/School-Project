@@ -53,7 +53,7 @@ namespace School_Project.Business_Layer
             return Dt;
         }
 
-            public void Student_ADD(int ID,string FIRST_NAME, string LAST_NAME, string BIRTH_DATE, string CLASS, string ACADEMIC_YEAR, string PHONE_NUMBER, string CITY, string STUDENT_SUPERVISOR,string STUDY_FEES)
+        public void Student_ADD(int ID,string FIRST_NAME, string LAST_NAME, string BIRTH_DATE, string CLASS, string ACADEMIC_YEAR, string PHONE_NUMBER, string CITY, string STUDENT_SUPERVISOR,string STUDY_FEES)
         {
 
             Data_Access_Layer.DataAccessLayer Data_Access_Layer = new Data_Access_Layer.DataAccessLayer();
@@ -113,6 +113,19 @@ namespace School_Project.Business_Layer
             Dt = DAL.SelectData("Get_All_Students", null);
             DAL.Clsoe();
             return Dt;
+        }
+        public void DeleteStudent(int ID)
+        {
+
+            Data_Access_Layer.DataAccessLayer Data_Access_Layer = new Data_Access_Layer.DataAccessLayer();
+            Data_Access_Layer.Open();
+            SqlParameter[] param = new SqlParameter[1];
+
+            param[0] = new SqlParameter("@ID", SqlDbType.Int);
+            param[0].Value = ID;
+
+            Data_Access_Layer.ExecuteCommand("DeleteStudent", param);
+            Data_Access_Layer.Clsoe();
         }
     }
 }
