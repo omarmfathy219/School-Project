@@ -12,10 +12,31 @@ namespace School_Project.Presentation_Layer
 {
     public partial class Manage_Students_Form : MetroFramework.Forms.MetroForm
     {
+        private static Manage_Students_Form frm;
+
+        static void frm_FromCLosed(object sender, FormClosedEventArgs e)
+        {
+            frm = null;
+        }
+
+        public static Manage_Students_Form getMainForm
+        {
+            get
+            {
+                if (frm == null)
+                {
+                    frm = new Manage_Students_Form();
+                    frm.FormClosed += new FormClosedEventHandler(frm_FromCLosed);
+                }
+                return frm;
+            }
+        }
         Business_Layer.CLS_Add_Student stud = new Business_Layer.CLS_Add_Student();
         public Manage_Students_Form()
         {
             InitializeComponent();
+            if (frm == null)
+                frm = this;
             this.metroGrid1.DataSource = stud.Get_All_Students();
         }
 

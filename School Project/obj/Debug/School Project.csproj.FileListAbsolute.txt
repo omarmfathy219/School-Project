@@ -15,3 +15,7 @@ C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\Scho
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Presentation_Layer.Main_Form.resources
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Presentation_Layer.Add_Student.resources
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Presentation_Layer.Manage_Students_Form.resources
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\School Project.exe.manifest
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\School Project.application
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.exe.manifest
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School Project.application

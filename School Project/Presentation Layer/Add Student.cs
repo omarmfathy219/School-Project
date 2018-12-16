@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace School_Project.Presentation_Layer
 {
-   
+
     public partial class Add_Student : MetroFramework.Forms.MetroForm
     {
+
         public string state = "add";
         
         Business_Layer.CLS_Add_Student stud = new Business_Layer.CLS_Add_Student();
@@ -56,6 +57,8 @@ namespace School_Project.Presentation_Layer
 
                 MessageBox.Show("Data Updated Successfully");
             }
+            Manage_Students_Form.getMainForm.metroGrid1.DataSource = stud.Get_All_Students();
+            Close();
         }
 
         private void txtID_Validated(object sender, EventArgs e)
