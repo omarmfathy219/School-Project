@@ -114,6 +114,7 @@
             this.Print.TabIndex = 4;
             this.Print.Text = "Print";
             this.Print.UseSelectable = true;
+            this.Print.Click += new System.EventHandler(this.Print_Click);
             // 
             // Update
             // 

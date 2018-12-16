@@ -107,5 +107,14 @@ namespace School_Project.Presentation_Layer
             frm.txtID.TabIndex = 100;
             frm.ShowDialog();
         }
+
+        private void Print_Click(object sender, EventArgs e)
+        {
+            Reports.StudentReportCR myReport = new Reports.StudentReportCR();
+            myReport.SetParameterValue("@ID", this.metroGrid1.CurrentRow.Cells[0].Value.ToString());
+            Reports.Manage_Student_Report myForm = new Reports.Manage_Student_Report();
+            myForm.crystalReportViewer1.ReportSource = myReport;
+            myForm.ShowDialog();
+        }
     }
 }
