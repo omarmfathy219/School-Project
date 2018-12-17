@@ -166,7 +166,7 @@
             this.TxtPhone_Number.CustomButton.Visible = false;
             this.TxtPhone_Number.Lines = new string[0];
             this.TxtPhone_Number.Location = new System.Drawing.Point(172, 305);
-            this.TxtPhone_Number.MaxLength = 32767;
+            this.TxtPhone_Number.MaxLength = 11;
             this.TxtPhone_Number.Name = "TxtPhone_Number";
             this.TxtPhone_Number.PasswordChar = '\0';
             this.TxtPhone_Number.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -432,6 +432,7 @@
             this.cmboxClass.Size = new System.Drawing.Size(186, 29);
             this.cmboxClass.TabIndex = 5;
             this.cmboxClass.UseSelectable = true;
+            this.cmboxClass.SelectedIndexChanged += new System.EventHandler(this.cmboxClass_SelectedIndexChanged);
             // 
             // Fees
             // 

@@ -79,5 +79,10 @@ namespace School_Project.Presentation_Layer
         {
             Close();
         }
+
+        private void cmboxClass_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

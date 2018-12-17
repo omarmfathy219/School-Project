@@ -119,5 +119,15 @@ namespace School_Project.Presentation_Layer
             MessageBox.Show("Updated Successfully", "Update Operation", MessageBoxButtons.OK, MessageBoxIcon.Information);
             lebPosition.Text = (bmb.Position + 1) + " / " + bmb.Count;
         }
+
+        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void lebPosition_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

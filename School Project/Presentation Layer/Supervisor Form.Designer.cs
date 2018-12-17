@@ -28,29 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Supervisor_Form));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
             this.txtboxID = new MetroFramework.Controls.MetroTextBox();
             this.lebPosition = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.btnSave = new MetroFramework.Controls.MetroButton();
-            this.btnClose = new MetroFramework.Controls.MetroButton();
-            this.btnUpdate = new MetroFramework.Controls.MetroButton();
-            this.BtnDelete = new MetroFramework.Controls.MetroButton();
-            this.btnAdd = new MetroFramework.Controls.MetroButton();
-            this.BtnForward = new MetroFramework.Controls.MetroButton();
-            this.btnBack = new MetroFramework.Controls.MetroButton();
             this.txtboxFirstName = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.txtboxPhoneNumber = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.txtboxLastName = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.txtboxHireDate = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.txtboxSalary = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
@@ -58,8 +50,16 @@
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.txtboxEmail = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.txtboxClass = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.btnSave = new MetroFramework.Controls.MetroButton();
+            this.btnClose = new MetroFramework.Controls.MetroButton();
+            this.btnUpdate = new MetroFramework.Controls.MetroButton();
+            this.BtnDelete = new MetroFramework.Controls.MetroButton();
+            this.btnAdd = new MetroFramework.Controls.MetroButton();
+            this.BtnForward = new MetroFramework.Controls.MetroButton();
+            this.btnBack = new MetroFramework.Controls.MetroButton();
+            this.txtboxHireDate = new MetroFramework.Controls.MetroDateTime();
+            this.txtboxClass = new MetroFramework.Controls.MetroComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
             this.SuspendLayout();
@@ -67,8 +67,8 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtboxClass);
-            this.groupBox1.Controls.Add(this.metroLabel9);
             this.groupBox1.Controls.Add(this.txtboxHireDate);
+            this.groupBox1.Controls.Add(this.metroLabel9);
             this.groupBox1.Controls.Add(this.metroLabel5);
             this.groupBox1.Controls.Add(this.txtboxSalary);
             this.groupBox1.Controls.Add(this.metroLabel6);
@@ -108,41 +108,42 @@
             this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle14;
             this.metroGrid1.EnableHeadersVisualStyles = false;
             this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.metroGrid1.Location = new System.Drawing.Point(299, 41);
             this.metroGrid1.Name = "metroGrid1";
             this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.metroGrid1.Size = new System.Drawing.Size(417, 387);
             this.metroGrid1.TabIndex = 11;
+            this.metroGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.metroGrid1_CellContentClick);
             // 
             // txtboxID
             // 
@@ -163,7 +164,6 @@
             this.txtboxID.MaxLength = 32767;
             this.txtboxID.Name = "txtboxID";
             this.txtboxID.PasswordChar = '\0';
-            this.txtboxID.ReadOnly = true;
             this.txtboxID.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxID.SelectedText = "";
             this.txtboxID.SelectionLength = 0;
@@ -174,6 +174,7 @@
             this.txtboxID.UseSelectable = true;
             this.txtboxID.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtboxID.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtboxID.Click += new System.EventHandler(this.txtboxID_Click);
             // 
             // lebPosition
             // 
@@ -184,6 +185,7 @@
             this.lebPosition.TabIndex = 5;
             this.lebPosition.Text = "1/6";
             this.lebPosition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lebPosition.Click += new System.EventHandler(this.lebPosition_Click);
             // 
             // metroLabel1
             // 
@@ -193,80 +195,6 @@
             this.metroLabel1.Size = new System.Drawing.Size(118, 25);
             this.metroLabel1.TabIndex = 1;
             this.metroLabel1.Text = "ID";
-            // 
-            // btnSave
-            // 
-            this.btnSave.BackgroundImage = global::School_Project.Properties.Resources.iconfinder_floppy_2856157;
-            this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSave.Enabled = false;
-            this.btnSave.Location = new System.Drawing.Point(188, 452);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(97, 30);
-            this.btnSave.TabIndex = 13;
-            this.btnSave.UseSelectable = true;
-            // 
-            // btnClose
-            // 
-            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnClose.Location = new System.Drawing.Point(529, 452);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(97, 30);
-            this.btnClose.TabIndex = 16;
-            this.btnClose.UseSelectable = true;
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpdate.BackgroundImage")));
-            this.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnUpdate.Location = new System.Drawing.Point(299, 452);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(97, 30);
-            this.btnUpdate.TabIndex = 14;
-            this.btnUpdate.UseSelectable = true;
-            // 
-            // BtnDelete
-            // 
-            this.BtnDelete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDelete.BackgroundImage")));
-            this.BtnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BtnDelete.Location = new System.Drawing.Point(413, 452);
-            this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(97, 30);
-            this.BtnDelete.TabIndex = 15;
-            this.BtnDelete.UseSelectable = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdd.BackgroundImage")));
-            this.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnAdd.Location = new System.Drawing.Point(76, 452);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(97, 30);
-            this.btnAdd.TabIndex = 12;
-            this.btnAdd.UseSelectable = true;
-            // 
-            // BtnForward
-            // 
-            this.BtnForward.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnForward.BackgroundImage")));
-            this.BtnForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BtnForward.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.BtnForward.Location = new System.Drawing.Point(195, 401);
-            this.BtnForward.Name = "BtnForward";
-            this.BtnForward.Size = new System.Drawing.Size(75, 27);
-            this.BtnForward.TabIndex = 11;
-            this.BtnForward.UseSelectable = true;
-            // 
-            // btnBack
-            // 
-            this.btnBack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBack.BackgroundImage")));
-            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnBack.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnBack.Location = new System.Drawing.Point(31, 401);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(75, 27);
-            this.btnBack.TabIndex = 10;
-            this.btnBack.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnBack.UseSelectable = true;
             // 
             // txtboxFirstName
             // 
@@ -287,7 +215,6 @@
             this.txtboxFirstName.MaxLength = 32767;
             this.txtboxFirstName.Name = "txtboxFirstName";
             this.txtboxFirstName.PasswordChar = '\0';
-            this.txtboxFirstName.ReadOnly = true;
             this.txtboxFirstName.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxFirstName.SelectedText = "";
             this.txtboxFirstName.SelectionLength = 0;
@@ -324,10 +251,9 @@
             this.txtboxPhoneNumber.CustomButton.Visible = false;
             this.txtboxPhoneNumber.Lines = new string[0];
             this.txtboxPhoneNumber.Location = new System.Drawing.Point(156, 168);
-            this.txtboxPhoneNumber.MaxLength = 32767;
+            this.txtboxPhoneNumber.MaxLength = 11;
             this.txtboxPhoneNumber.Name = "txtboxPhoneNumber";
             this.txtboxPhoneNumber.PasswordChar = '\0';
-            this.txtboxPhoneNumber.ReadOnly = true;
             this.txtboxPhoneNumber.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxPhoneNumber.SelectedText = "";
             this.txtboxPhoneNumber.SelectionLength = 0;
@@ -367,7 +293,6 @@
             this.txtboxLastName.MaxLength = 32767;
             this.txtboxLastName.Name = "txtboxLastName";
             this.txtboxLastName.PasswordChar = '\0';
-            this.txtboxLastName.ReadOnly = true;
             this.txtboxLastName.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxLastName.SelectedText = "";
             this.txtboxLastName.SelectionLength = 0;
@@ -387,37 +312,6 @@
             this.metroLabel4.Size = new System.Drawing.Size(118, 25);
             this.metroLabel4.TabIndex = 15;
             this.metroLabel4.Text = "Last Name";
-            // 
-            // txtboxHireDate
-            // 
-            // 
-            // 
-            // 
-            this.txtboxHireDate.CustomButton.Image = null;
-            this.txtboxHireDate.CustomButton.Location = new System.Drawing.Point(92, 1);
-            this.txtboxHireDate.CustomButton.Name = "";
-            this.txtboxHireDate.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtboxHireDate.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtboxHireDate.CustomButton.TabIndex = 1;
-            this.txtboxHireDate.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtboxHireDate.CustomButton.UseSelectable = true;
-            this.txtboxHireDate.CustomButton.Visible = false;
-            this.txtboxHireDate.Lines = new string[0];
-            this.txtboxHireDate.Location = new System.Drawing.Point(156, 316);
-            this.txtboxHireDate.MaxLength = 32767;
-            this.txtboxHireDate.Name = "txtboxHireDate";
-            this.txtboxHireDate.PasswordChar = '\0';
-            this.txtboxHireDate.ReadOnly = true;
-            this.txtboxHireDate.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtboxHireDate.SelectedText = "";
-            this.txtboxHireDate.SelectionLength = 0;
-            this.txtboxHireDate.SelectionStart = 0;
-            this.txtboxHireDate.ShortcutsEnabled = true;
-            this.txtboxHireDate.Size = new System.Drawing.Size(114, 23);
-            this.txtboxHireDate.TabIndex = 8;
-            this.txtboxHireDate.UseSelectable = true;
-            this.txtboxHireDate.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtboxHireDate.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // metroLabel5
             // 
@@ -447,7 +341,6 @@
             this.txtboxSalary.MaxLength = 32767;
             this.txtboxSalary.Name = "txtboxSalary";
             this.txtboxSalary.PasswordChar = '\0';
-            this.txtboxSalary.ReadOnly = true;
             this.txtboxSalary.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxSalary.SelectedText = "";
             this.txtboxSalary.SelectionLength = 0;
@@ -487,7 +380,6 @@
             this.txtboxCity.MaxLength = 32767;
             this.txtboxCity.Name = "txtboxCity";
             this.txtboxCity.PasswordChar = '\0';
-            this.txtboxCity.ReadOnly = true;
             this.txtboxCity.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxCity.SelectedText = "";
             this.txtboxCity.SelectionLength = 0;
@@ -527,7 +419,6 @@
             this.txtboxEmail.MaxLength = 32767;
             this.txtboxEmail.Name = "txtboxEmail";
             this.txtboxEmail.PasswordChar = '\0';
-            this.txtboxEmail.ReadOnly = true;
             this.txtboxEmail.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtboxEmail.SelectedText = "";
             this.txtboxEmail.SelectionLength = 0;
@@ -548,37 +439,6 @@
             this.metroLabel8.TabIndex = 19;
             this.metroLabel8.Text = "Email";
             // 
-            // txtboxClass
-            // 
-            // 
-            // 
-            // 
-            this.txtboxClass.CustomButton.Image = null;
-            this.txtboxClass.CustomButton.Location = new System.Drawing.Point(92, 1);
-            this.txtboxClass.CustomButton.Name = "";
-            this.txtboxClass.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtboxClass.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtboxClass.CustomButton.TabIndex = 1;
-            this.txtboxClass.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtboxClass.CustomButton.UseSelectable = true;
-            this.txtboxClass.CustomButton.Visible = false;
-            this.txtboxClass.Lines = new string[0];
-            this.txtboxClass.Location = new System.Drawing.Point(156, 354);
-            this.txtboxClass.MaxLength = 32767;
-            this.txtboxClass.Name = "txtboxClass";
-            this.txtboxClass.PasswordChar = '\0';
-            this.txtboxClass.ReadOnly = true;
-            this.txtboxClass.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtboxClass.SelectedText = "";
-            this.txtboxClass.SelectionLength = 0;
-            this.txtboxClass.SelectionStart = 0;
-            this.txtboxClass.ShortcutsEnabled = true;
-            this.txtboxClass.Size = new System.Drawing.Size(114, 23);
-            this.txtboxClass.TabIndex = 9;
-            this.txtboxClass.UseSelectable = true;
-            this.txtboxClass.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtboxClass.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
             // metroLabel9
             // 
             this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Bold;
@@ -587,6 +447,105 @@
             this.metroLabel9.Size = new System.Drawing.Size(118, 25);
             this.metroLabel9.TabIndex = 27;
             this.metroLabel9.Text = "Class";
+            // 
+            // btnSave
+            // 
+            this.btnSave.BackgroundImage = global::School_Project.Properties.Resources.iconfinder_floppy_2856157;
+            this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnSave.Enabled = false;
+            this.btnSave.Location = new System.Drawing.Point(188, 455);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(97, 30);
+            this.btnSave.TabIndex = 13;
+            this.btnSave.UseSelectable = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
+            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnClose.Location = new System.Drawing.Point(529, 452);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(97, 30);
+            this.btnClose.TabIndex = 16;
+            this.btnClose.UseSelectable = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpdate.BackgroundImage")));
+            this.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnUpdate.Location = new System.Drawing.Point(299, 452);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(97, 30);
+            this.btnUpdate.TabIndex = 14;
+            this.btnUpdate.UseSelectable = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // BtnDelete
+            // 
+            this.BtnDelete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDelete.BackgroundImage")));
+            this.BtnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnDelete.Location = new System.Drawing.Point(413, 452);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(97, 30);
+            this.BtnDelete.TabIndex = 15;
+            this.BtnDelete.UseSelectable = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdd.BackgroundImage")));
+            this.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnAdd.Location = new System.Drawing.Point(76, 452);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(97, 30);
+            this.btnAdd.TabIndex = 12;
+            this.btnAdd.UseSelectable = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // BtnForward
+            // 
+            this.BtnForward.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnForward.BackgroundImage")));
+            this.BtnForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnForward.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.BtnForward.Location = new System.Drawing.Point(195, 401);
+            this.BtnForward.Name = "BtnForward";
+            this.BtnForward.Size = new System.Drawing.Size(75, 27);
+            this.BtnForward.TabIndex = 11;
+            this.BtnForward.UseSelectable = true;
+            this.BtnForward.Click += new System.EventHandler(this.BtnForward_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBack.BackgroundImage")));
+            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnBack.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnBack.Location = new System.Drawing.Point(31, 401);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 27);
+            this.btnBack.TabIndex = 10;
+            this.btnBack.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnBack.UseSelectable = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // txtboxHireDate
+            // 
+            this.txtboxHireDate.Location = new System.Drawing.Point(155, 316);
+            this.txtboxHireDate.MinimumSize = new System.Drawing.Size(0, 29);
+            this.txtboxHireDate.Name = "txtboxHireDate";
+            this.txtboxHireDate.Size = new System.Drawing.Size(115, 29);
+            this.txtboxHireDate.TabIndex = 28;
+            // 
+            // txtboxClass
+            // 
+            this.txtboxClass.FormattingEnabled = true;
+            this.txtboxClass.ItemHeight = 23;
+            this.txtboxClass.Location = new System.Drawing.Point(155, 354);
+            this.txtboxClass.Name = "txtboxClass";
+            this.txtboxClass.Size = new System.Drawing.Size(115, 29);
+            this.txtboxClass.TabIndex = 29;
+            this.txtboxClass.UseSelectable = true;
             // 
             // Supervisor_Form
             // 
@@ -617,9 +576,7 @@
         private MetroFramework.Controls.MetroButton BtnForward;
         private MetroFramework.Controls.MetroButton btnBack;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroTextBox txtboxClass;
         private MetroFramework.Controls.MetroLabel metroLabel9;
-        private MetroFramework.Controls.MetroTextBox txtboxHireDate;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroTextBox txtboxSalary;
         private MetroFramework.Controls.MetroLabel metroLabel6;
@@ -633,5 +590,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroTextBox txtboxFirstName;
         private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroComboBox txtboxClass;
+        private MetroFramework.Controls.MetroDateTime txtboxHireDate;
     }
 }
