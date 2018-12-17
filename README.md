@@ -40,7 +40,7 @@ Business Layer (Working...)
 
  ![N|Solid](https://ephgpw.by.files.1drv.com/y4mtH7g3elvLjwflDEkopimyeT8ZBSkkaTFG4_cW-_wdICNS86zWfe2YKb1xemKK9hghsBSmnZunpCQz1dk6sdZe20Pz_-pwOR10McOFxC5cw51EVmOyDafa48W9wiUnTqYzkI8PbjIuxNUu002ZEyquMTWnUj8s6qgZ8zx4G-y_cvY6MhbKLRMVETaN0iHC9IQpNGtsuhPwAAzjQZQ1yT-fA?width=504&height=218&cropmode=none)
 
- ![N|Solid](https://epj7gw.by.files.1drv.com/y4m1tv79PR1elwliuufO55EfydgO2HsxA3a0URH8Xg678Ig45541vTAPcCUT5lVy0hXe9qrypAcWociehHm5H7TddhGDs-m6qaXzIpR01Xi3enrcysI5O65VyLrL_4Xt8oUEmiFWYKmXSbAZt-WmQQSTljAr8taNLTfVkYSayyfmdAJWJJ3bKfCZESfO8eTQej9VylIzOrXvvLUOfyo8KbRHw?width=660&height=352&cropmode=none)
+ ![N|Solid](https://eho2ba.by.files.1drv.com/y4mVfLIOyrQp6rUz43EM_8yQPSvB9AnmkGu-ma7RnHTZG2AhYm75dgxyQyNNwkqQroIPNtvOVsFuNLaWX3Nrouix6maoCOoZlyZXa8kP4QNFNNYM7LIh1xL4sRo-mHpxQAgXQEMrwGgPiuZt6Lij7toH8ocfmL_2E2jv0Ohjm6manMQ-zgNPKFUsQmu2oPhWrcSouRX7cq8cmeh672q8KhD4Q?width=577&height=581&cropmode=none)
 
 
  ![N|Solid](https://rlx7yw.by.files.1drv.com/y4m0dAU7WdXUfz1TSPhBYLERbUZMRNtZO98zxWd0kLI6NkGKv0_1Y7hB9Goa-O1YI-fZ3vyUJALTCGp8uBsjSRknQ0rQee_VqOJz7ad1QRMlw3L47JcYvWACWljDBrTOxMRzcrwQRlWmgVW6o6aTdZK6xvoqPQDvur6zCOUIicqZGCPeJVOuUp8h81uxP1EbKLnKeuj0jeQdOXcx8Ku0jwpZg?width=536&height=660&cropmode=none)
