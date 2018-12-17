@@ -39,3 +39,4 @@ C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\Shoc
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\bin\Debug\stdole.dll
 C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Reports.Manage_Student_Report.resources
+C:\Users\Omar M. Fathy\source\repos\School Project\School Project\obj\Debug\School_Project.Presentation_Layer.Class_Manage.resources

@@ -36,8 +36,6 @@
             this.manageTablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addTablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.manageTeachersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addTeacherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teachersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageStudentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,6 +45,7 @@
             this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.manageTeachersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,22 +100,9 @@
             this.tablesToolStripMenuItem.Size = new System.Drawing.Size(113, 45);
             this.tablesToolStripMenuItem.Text = "Supervisor";
             // 
-            // manageTeachersToolStripMenuItem
-            // 
-            this.manageTeachersToolStripMenuItem.Name = "manageTeachersToolStripMenuItem";
-            this.manageTeachersToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
-            this.manageTeachersToolStripMenuItem.Text = "Classes Manage ";
-            // 
-            // addTeacherToolStripMenuItem
-            // 
-            this.addTeacherToolStripMenuItem.Name = "addTeacherToolStripMenuItem";
-            this.addTeacherToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
-            this.addTeacherToolStripMenuItem.Text = "Add New Class";
-            // 
             // teachersToolStripMenuItem
             // 
             this.teachersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addTeacherToolStripMenuItem,
             this.manageTeachersToolStripMenuItem});
             this.teachersToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teachersToolStripMenuItem.Name = "teachersToolStripMenuItem";
@@ -197,6 +183,13 @@
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
+            // manageTeachersToolStripMenuItem
+            // 
+            this.manageTeachersToolStripMenuItem.Name = "manageTeachersToolStripMenuItem";
+            this.manageTeachersToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.manageTeachersToolStripMenuItem.Text = "Classes Manage ";
+            this.manageTeachersToolStripMenuItem.Click += new System.EventHandler(this.manageTeachersToolStripMenuItem_Click);
+            // 
             // Main_Form
             // 
             this.AccessibleDescription = " ";
@@ -226,8 +219,6 @@
         private System.Windows.Forms.ToolStripMenuItem manageTablesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addTablesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tablesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem manageTeachersToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addTeacherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem teachersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manageStudentsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addStudentToolStripMenuItem;
@@ -237,5 +228,6 @@
         private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem manageTeachersToolStripMenuItem;
     }
 }

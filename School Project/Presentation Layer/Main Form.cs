@@ -53,5 +53,11 @@ namespace School_Project.Presentation_Layer
             Manage_Students_Form frm = new Manage_Students_Form();
             frm.ShowDialog();
         }
+
+        private void manageTeachersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Class_Manage frm = new Class_Manage();
+            frm.ShowDialog();
+        }
     }
 }
