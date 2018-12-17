@@ -40,12 +40,14 @@ Business Layer (Working...)
 
  ![N|Solid](https://ephgpw.by.files.1drv.com/y4mtH7g3elvLjwflDEkopimyeT8ZBSkkaTFG4_cW-_wdICNS86zWfe2YKb1xemKK9hghsBSmnZunpCQz1dk6sdZe20Pz_-pwOR10McOFxC5cw51EVmOyDafa48W9wiUnTqYzkI8PbjIuxNUu002ZEyquMTWnUj8s6qgZ8zx4G-y_cvY6MhbKLRMVETaN0iHC9IQpNGtsuhPwAAzjQZQ1yT-fA?width=504&height=218&cropmode=none)
 
+![N|Solid](https://epg1ta.by.files.1drv.com/y4m41vD-9L0WB3DjU5eT1-Y2OpAhbgIEdE5rfRTLZD13le_pjxihSFyCoS2IzNI7DDJ4FQoGgCpEJzn6rjzpRoV2NlG9j7zh0kp2EpDZE_l8Auvvo_ZT_6uzEtEB9CYYiyU4ZmbhYLUswsMwjr4w73MOCaBWnphcL706HwPCplEI1jggguk8jKE5W6AXMy_glRUhXvKHPhOzFyjh_7_GGxrdQ?width=1366&height=728&cropmode=none)
+
  ![N|Solid](https://eho2ba.by.files.1drv.com/y4mVfLIOyrQp6rUz43EM_8yQPSvB9AnmkGu-ma7RnHTZG2AhYm75dgxyQyNNwkqQroIPNtvOVsFuNLaWX3Nrouix6maoCOoZlyZXa8kP4QNFNNYM7LIh1xL4sRo-mHpxQAgXQEMrwGgPiuZt6Lij7toH8ocfmL_2E2jv0Ohjm6manMQ-zgNPKFUsQmu2oPhWrcSouRX7cq8cmeh672q8KhD4Q?width=577&height=581&cropmode=none)
 
+ ![N|Solid](https://ehnreq.by.files.1drv.com/y4mOcAipGpscCd_fTGLDQ33xbv7qgQoDTulFbA0qWCRBgcuOUmhJX0qNI7339saQHwdzcxUQlLsEg687vITcyBROqFi53SKblEnIsx9f_VgMMmZUO5H8wUeb2BgUXQRvU3cLj-v68NTR54qcTxed5I7W9O5M_zr9m-ki7O2ChlQr0hde6u2GD6z0uwkwuhpofTZJpGydJUU5vJlQV7QddZlxw?width=842&height=465&cropmode=none)
 
- ![N|Solid](https://rlx7yw.by.files.1drv.com/y4m0dAU7WdXUfz1TSPhBYLERbUZMRNtZO98zxWd0kLI6NkGKv0_1Y7hB9Goa-O1YI-fZ3vyUJALTCGp8uBsjSRknQ0rQee_VqOJz7ad1QRMlw3L47JcYvWACWljDBrTOxMRzcrwQRlWmgVW6o6aTdZK6xvoqPQDvur6zCOUIicqZGCPeJVOuUp8h81uxP1EbKLnKeuj0jeQdOXcx8Ku0jwpZg?width=536&height=660&cropmode=none)
+ ![N|Solid](https://ehpzna.by.files.1drv.com/y4mXmJtX1uDXqjSKlXb7peXvnYt5cKiEf43cUeV3rIuJWirGQKCLWYyMTs5_p-_66rZZPJ3d78iXX6oRrEDBGmtTD4OfBiEj5e57pG8ZflXjq0fHWBzh3hPXbvsAypYCy0U5QApho_HTSuL_je_Ma7HzZMvYCFGb9TAPsKf6iF7dRoAjmoVtQS_hDslMmz07pn-pYMP4jWieDPIw3IdYTnLWg?width=694&height=321&cropmode=none)
 
- ![N|Solid](https://pxxqta.by.files.1drv.com/y4mGiqHzUOebfg6p5faHc7w1IHrcLbFxL8QAnKtOCiZeKQaFrGdNvReL5lTcfbsGAmMkRZQzIiHvb_Isl_LNd4OEwZzN2UVsSt6RsvswPwhTieoAc5Yiy4_BvXny-2C3mHUoffaKuK6kJzfz020r5Na793JWIPKytpj1Tjb-I8c391y__pmJACvRYoY0sj0gtDNhBcq33HX6jKGfv3rWbZ7Qg?width=861&height=467&cropmode=none)
 
 # Issues!!
 > - Login Form Not Closed After Login
