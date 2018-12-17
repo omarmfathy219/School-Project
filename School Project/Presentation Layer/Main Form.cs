@@ -59,5 +59,11 @@ namespace School_Project.Presentation_Layer
             Class_Manage frm = new Class_Manage();
             frm.ShowDialog();
         }
+
+        private void manageTablesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Supervisor_Form frm = new Supervisor_Form();
+            frm.ShowDialog();
+        }
     }
 }
