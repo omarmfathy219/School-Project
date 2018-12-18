@@ -123,13 +123,19 @@ namespace School_Project.Presentation_Layer
 
         private void BtnDelete_Click(object sender, EventArgs e)
         {
-            bmb.RemoveAt(bmb.Position);
-            bmb.EndCurrentEdit();
-            cmdb = new SqlCommandBuilder(da);
-            da.Update(dt);
-            MessageBox.Show("Deleted Successfully", "Delete Operation", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            lebPosition.Text = (bmb.Position + 1) + " / " + bmb.Count;
-
+            if (MessageBox.Show("Do you want to delete this Record", "Delete Operation", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+            {
+                bmb.RemoveAt(bmb.Position);
+                bmb.EndCurrentEdit();
+                cmdb = new SqlCommandBuilder(da);
+                lebPosition.Text = (bmb.Position + 1) + " / " + bmb.Count;
+                MessageBox.Show("Deleted Successfully", "Delete Operation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                da.Update(dt);
+            }
+            else
+            {
+                MessageBox.Show("Deleted Canceled", "Delete Operation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

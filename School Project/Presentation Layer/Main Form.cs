@@ -77,5 +77,11 @@ namespace School_Project.Presentation_Layer
             About_Form frm = new About_Form();
             frm.ShowDialog();
         }
+
+        private void userManagmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Users_Manage_Form frm = new Users_Manage_Form();
+            frm.ShowDialog();
+        }
     }
 }

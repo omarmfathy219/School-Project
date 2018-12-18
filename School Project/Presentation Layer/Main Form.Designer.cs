@@ -78,6 +78,7 @@
             this.userManagmentToolStripMenuItem.Name = "userManagmentToolStripMenuItem";
             this.userManagmentToolStripMenuItem.Size = new System.Drawing.Size(229, 30);
             this.userManagmentToolStripMenuItem.Text = "User Managment";
+            this.userManagmentToolStripMenuItem.Click += new System.EventHandler(this.userManagmentToolStripMenuItem_Click);
             // 
             // manageTablesToolStripMenuItem
             // 
