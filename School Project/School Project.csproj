@@ -94,6 +94,12 @@
     <Compile Include="Business Layer\CLS Login.cs" />
     <Compile Include="Business Layer\CLS Supervisor.cs" />
     <Compile Include="Data Access Layer\DataAccessLayer.cs" />
+    <Compile Include="Presentation Layer\About Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\About Form.Designer.cs">
+      <DependentUpon>About Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentation Layer\Add Student.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
       <DependentUpon>StudentReportCR.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="Presentation Layer\About Form.resx">
+      <DependentUpon>About Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation Layer\Add Student.resx">
       <DependentUpon>Add Student.cs</DependentUpon>
     </EmbeddedResource>
