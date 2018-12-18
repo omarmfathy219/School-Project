@@ -50,6 +50,12 @@ Business Layer (Working...)
 
  ![N|Solid](https://epjqwa.by.files.1drv.com/y4mIOxcrXnwuLyjbQnw7Wxx_eaIpo9Y5lxzQ0Nu2Ylv6ruEid63L0YPKuCQSa-PNsowOvNaR0ZvIoDxvxS5yjNi3yAzNTGn3DGiUP2zxZ_Xorbyw5aDFAZHcnY8i1zetsHoG0wlC8vkM6mNZBpw6TWmIcV4rEkHoq2h2Q4jKUEGsy0wlQOjokA43Sm8cMEg8s_M-zXP-qQNcpgB--zjZ8gaFg?width=800&height=602&cropmode=none)
 
+ ![N|Solid](https://ephrnq.by.files.1drv.com/y4miyixKZAYGtopfL-CaBuUZHzVoL55CuBZDLY4s-F_yG7u9iPVoGR_ZtKJQIlpZWd6HDCpHgn1jx4WdXmNlr55mNh2NokfzMmpl8h-itWoMo9DpusrD_n6jy_ovdUshLQNRLgepQnEyIM59e10uWii3gErxQ4vuh8maKk1F0ilqmBELMtjVzbxN27TB7NLkZLByAO5VEix_swJVpibh3IDHQ?width=584&height=253&cropmode=none)
+ 
+  ![N|Solid](https://epjjeq.by.files.1drv.com/y4mPf5ZrQ9y6sfLtWsBgWaO73Ru1lOvk7QpNVU3zklN-iUG1Qs0rDpvDzxslkmANdThvavG38XjcAkv5cOJWR8J8-i-ICVU43EVQtjClKb3EV9L_fQFzMrSqHPAapXEdLPnpOHPPB-Q5vXwdEUeuWo8NE19vhyi_AVXs-uRsw7FJSz9c43_roLUys7A3lbow-YU55mhn8EBufzurujNDBpj9A?width=415&height=368&cropmode=none)
+  
+  
+  ![N|Solid](https://epggqg.by.files.1drv.com/y4mYg_8bJCaGoVFp8XLBY4gSsUSJuORslhc7Q6mKr8GwV5I--QQzKjXaXSlMOMsFijkXh9Ix49Seu_K-RZ-yRudmzcvBRy2vbHjTjKLZiL71euG1gORsdjSfUsHmi6daLp6giqtZTSC5a3g0kwKsFRSnmQjVVOWSGEphffQhlZRejEionGeVRLFJcSOoeTZX3xXkdqJ8DN47Kkqi454KEmRpQ?width=538&height=356&cropmode=none)
 
 # Issues!!
 > - Login Form Not Closed After Login
