@@ -48,6 +48,8 @@ Business Layer (Working...)
 
  ![N|Solid](https://ehpzna.by.files.1drv.com/y4mXmJtX1uDXqjSKlXb7peXvnYt5cKiEf43cUeV3rIuJWirGQKCLWYyMTs5_p-_66rZZPJ3d78iXX6oRrEDBGmtTD4OfBiEj5e57pG8ZflXjq0fHWBzh3hPXbvsAypYCy0U5QApho_HTSuL_je_Ma7HzZMvYCFGb9TAPsKf6iF7dRoAjmoVtQS_hDslMmz07pn-pYMP4jWieDPIw3IdYTnLWg?width=694&height=321&cropmode=none)
 
+ ![N|Solid](https://epjqwa.by.files.1drv.com/y4mIOxcrXnwuLyjbQnw7Wxx_eaIpo9Y5lxzQ0Nu2Ylv6ruEid63L0YPKuCQSa-PNsowOvNaR0ZvIoDxvxS5yjNi3yAzNTGn3DGiUP2zxZ_Xorbyw5aDFAZHcnY8i1zetsHoG0wlC8vkM6mNZBpw6TWmIcV4rEkHoq2h2Q4jKUEGsy0wlQOjokA43Sm8cMEg8s_M-zXP-qQNcpgB--zjZ8gaFg?width=800&height=602&cropmode=none)
+
 
 # Issues!!
 > - Login Form Not Closed After Login
