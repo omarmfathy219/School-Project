@@ -1,0 +1,25 @@
+CREATE PROC Update_Student
+@ID int,
+@FIRST_NAME Varchar (25),
+@LAST_NAME Varchar (25),
+@BIRTH_DATE Date,
+@CLASS Varchar (25),
+@ACADEMIC_YEAR Varchar (25),
+@PHONE_NUMBER Varchar (11),
+@CITY Varchar (25),
+@STUDENT_SUPERVISOR Varchar (25),
+@STUDY_FEES Varchar (25)
+AS
+UPDATE STUDENT
+   SET [ID] = @ID
+      ,[FIRST_NAME] = @FIRST_NAME
+      ,[LAST_NAME] = @LAST_NAME
+      ,[BIRTHDATE] = @BIRTH_DATE
+      ,[ACADEMIC_YEAR] = @ACADEMIC_YEAR
+      ,[CLASS_ID] = @CLASS
+      ,[PHONE_NUMBER] = @PHONE_NUMBER
+      ,[CITY] = @CITY
+      ,[STUDENT_SUPERVISOR] = @STUDENT_SUPERVISOR
+      ,[STUDY_FEES] = @STUDY_FEES
+ WHERE [ID] = @ID
+

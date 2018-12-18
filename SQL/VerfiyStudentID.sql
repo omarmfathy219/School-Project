@@ -1,0 +1,4 @@
+CREATE PROC VerfiyStudentID
+@ID int
+AS
+SELECT * FROM Student WHERE ID=@ID;
