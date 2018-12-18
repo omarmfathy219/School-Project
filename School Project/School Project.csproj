@@ -142,6 +142,12 @@
     <Compile Include="Presentation Layer\Supervisor Form.Designer.cs">
       <DependentUpon>Supervisor Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentation Layer\Users Manage Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Users Manage Form.Designer.cs">
+      <DependentUpon>Users Manage Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reports\Manage_Student_Report.cs">
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation Layer\Supervisor Form.resx">
       <DependentUpon>Supervisor Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Users Manage Form.resx">
+      <DependentUpon>Users Manage Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
