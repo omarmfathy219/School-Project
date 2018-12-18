@@ -136,7 +136,7 @@
             this.TxtAddress.CustomButton.Visible = false;
             this.TxtAddress.Lines = new string[0];
             this.TxtAddress.Location = new System.Drawing.Point(172, 384);
-            this.TxtAddress.MaxLength = 32767;
+            this.TxtAddress.MaxLength = 25;
             this.TxtAddress.Name = "TxtAddress";
             this.TxtAddress.PasswordChar = '\0';
             this.TxtAddress.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -166,7 +166,7 @@
             this.TxtPhone_Number.CustomButton.Visible = false;
             this.TxtPhone_Number.Lines = new string[0];
             this.TxtPhone_Number.Location = new System.Drawing.Point(172, 305);
-            this.TxtPhone_Number.MaxLength = 11;
+            this.TxtPhone_Number.MaxLength = 25;
             this.TxtPhone_Number.Name = "TxtPhone_Number";
             this.TxtPhone_Number.PasswordChar = '\0';
             this.TxtPhone_Number.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -252,7 +252,7 @@
             this.txtLast_Name.CustomButton.Visible = false;
             this.txtLast_Name.Lines = new string[0];
             this.txtLast_Name.Location = new System.Drawing.Point(172, 140);
-            this.txtLast_Name.MaxLength = 32767;
+            this.txtLast_Name.MaxLength = 25;
             this.txtLast_Name.Name = "txtLast_Name";
             this.txtLast_Name.PasswordChar = '\0';
             this.txtLast_Name.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -296,7 +296,7 @@
             this.txtFirst_Name.CustomButton.Visible = false;
             this.txtFirst_Name.Lines = new string[0];
             this.txtFirst_Name.Location = new System.Drawing.Point(172, 91);
-            this.txtFirst_Name.MaxLength = 32767;
+            this.txtFirst_Name.MaxLength = 25;
             this.txtFirst_Name.Name = "txtFirst_Name";
             this.txtFirst_Name.PasswordChar = '\0';
             this.txtFirst_Name.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -374,7 +374,7 @@
             this.txtID.CustomButton.Visible = false;
             this.txtID.Lines = new string[0];
             this.txtID.Location = new System.Drawing.Point(172, 50);
-            this.txtID.MaxLength = 32767;
+            this.txtID.MaxLength = 25;
             this.txtID.Name = "txtID";
             this.txtID.PasswordChar = '\0';
             this.txtID.ScrollBars = System.Windows.Forms.ScrollBars.None;

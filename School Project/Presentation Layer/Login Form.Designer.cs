@@ -68,7 +68,7 @@
             this.txtID.Icon = ((System.Drawing.Image)(resources.GetObject("txtID.Icon")));
             this.txtID.Lines = new string[0];
             this.txtID.Location = new System.Drawing.Point(275, 77);
-            this.txtID.MaxLength = 32767;
+            this.txtID.MaxLength = 25;
             this.txtID.Name = "txtID";
             this.txtID.PasswordChar = '\0';
             this.txtID.PromptText = "Enter Your Username";
@@ -102,7 +102,7 @@
             this.txtPWD.Icon = ((System.Drawing.Image)(resources.GetObject("txtPWD.Icon")));
             this.txtPWD.Lines = new string[0];
             this.txtPWD.Location = new System.Drawing.Point(275, 125);
-            this.txtPWD.MaxLength = 32767;
+            this.txtPWD.MaxLength = 25;
             this.txtPWD.Name = "txtPWD";
             this.txtPWD.PasswordChar = '*';
             this.txtPWD.PromptText = "Enter Your Password";

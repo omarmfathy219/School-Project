@@ -60,6 +60,7 @@
             this.addNewUserToolStripMenuItem.Name = "addNewUserToolStripMenuItem";
             this.addNewUserToolStripMenuItem.Size = new System.Drawing.Size(229, 30);
             this.addNewUserToolStripMenuItem.Text = "Add New User";
+            this.addNewUserToolStripMenuItem.Click += new System.EventHandler(this.addNewUserToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 

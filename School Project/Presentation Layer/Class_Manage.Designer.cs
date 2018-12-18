@@ -148,10 +148,9 @@
             this.txtboxClassSupervisor.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtboxClassSupervisor.CustomButton.UseSelectable = true;
             this.txtboxClassSupervisor.CustomButton.Visible = false;
-            this.txtboxClassSupervisor.Lines = new string[] {
-        "metroTextBox2"};
+            this.txtboxClassSupervisor.Lines = new string[0];
             this.txtboxClassSupervisor.Location = new System.Drawing.Point(159, 139);
-            this.txtboxClassSupervisor.MaxLength = 32767;
+            this.txtboxClassSupervisor.MaxLength = 25;
             this.txtboxClassSupervisor.Name = "txtboxClassSupervisor";
             this.txtboxClassSupervisor.PasswordChar = '\0';
             this.txtboxClassSupervisor.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -161,7 +160,6 @@
             this.txtboxClassSupervisor.ShortcutsEnabled = true;
             this.txtboxClassSupervisor.Size = new System.Drawing.Size(114, 23);
             this.txtboxClassSupervisor.TabIndex = 3;
-            this.txtboxClassSupervisor.Text = "metroTextBox2";
             this.txtboxClassSupervisor.UseSelectable = true;
             this.txtboxClassSupervisor.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtboxClassSupervisor.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -234,10 +232,9 @@
             this.txtboxClassName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtboxClassName.CustomButton.UseSelectable = true;
             this.txtboxClassName.CustomButton.Visible = false;
-            this.txtboxClassName.Lines = new string[] {
-        "metroTextBox2"};
+            this.txtboxClassName.Lines = new string[0];
             this.txtboxClassName.Location = new System.Drawing.Point(159, 98);
-            this.txtboxClassName.MaxLength = 32767;
+            this.txtboxClassName.MaxLength = 25;
             this.txtboxClassName.Name = "txtboxClassName";
             this.txtboxClassName.PasswordChar = '\0';
             this.txtboxClassName.ScrollBars = System.Windows.Forms.ScrollBars.None;
@@ -247,7 +244,6 @@
             this.txtboxClassName.ShortcutsEnabled = true;
             this.txtboxClassName.Size = new System.Drawing.Size(114, 23);
             this.txtboxClassName.TabIndex = 2;
-            this.txtboxClassName.Text = "metroTextBox2";
             this.txtboxClassName.UseSelectable = true;
             this.txtboxClassName.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtboxClassName.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -267,10 +263,9 @@
             this.txtboxID.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtboxID.CustomButton.UseSelectable = true;
             this.txtboxID.CustomButton.Visible = false;
-            this.txtboxID.Lines = new string[] {
-        "metroTextBox1"};
+            this.txtboxID.Lines = new string[0];
             this.txtboxID.Location = new System.Drawing.Point(159, 54);
-            this.txtboxID.MaxLength = 32767;
+            this.txtboxID.MaxLength = 25;
             this.txtboxID.Name = "txtboxID";
             this.txtboxID.PasswordChar = '\0';
             this.txtboxID.ReadOnly = true;
@@ -281,7 +276,6 @@
             this.txtboxID.ShortcutsEnabled = true;
             this.txtboxID.Size = new System.Drawing.Size(114, 23);
             this.txtboxID.TabIndex = 1;
-            this.txtboxID.Text = "metroTextBox1";
             this.txtboxID.UseSelectable = true;
             this.txtboxID.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtboxID.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);

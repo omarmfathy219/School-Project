@@ -65,5 +65,11 @@ namespace School_Project.Presentation_Layer
             Supervisor_Form frm = new Supervisor_Form();
             frm.ShowDialog();
         }
+
+        private void addNewUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Add_User_Form frm = new Add_User_Form();
+            frm.ShowDialog();
+        }
     }
 }
