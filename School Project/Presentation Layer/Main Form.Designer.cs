@@ -141,21 +141,22 @@
             // 
             this.logoutToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.logoutToolStripMenuItem.Text = "Logout";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // restoreToolStripMenuItem
             // 
             this.restoreToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
-            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.restoreToolStripMenuItem.Text = "Restore";
             // 
             // backupToolStripMenuItem
             // 
             this.backupToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.backupToolStripMenuItem.Text = "Backup";
             // 
             // fileToolStripMenuItem

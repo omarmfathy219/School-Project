@@ -48,16 +48,17 @@ namespace School_Project.Presentation_Layer
             if (state == "add")
             {
                 stud.Student_ADD(Convert.ToInt32(txtID.Text), txtFirst_Name.Text, txtLast_Name.Text, txtBirthDate.Text, cmboxClass.Text, cmboxAcademic_Year.Text, TxtPhone_Number.Text, TxtAddress.Text, cmboxSupervisor.Text, cmboxFees.Text);
-
+                Manage_Students_Form.getMainForm.metroGrid1.DataSource = stud.Get_All_Students();
                 MessageBox.Show("Data Added Successfully");
             }
             else
             {
                 stud.Update_Student(Convert.ToInt32(txtID.Text), txtFirst_Name.Text, txtLast_Name.Text, txtBirthDate.Text, cmboxClass.Text, cmboxAcademic_Year.Text, TxtPhone_Number.Text, TxtAddress.Text, cmboxSupervisor.Text, cmboxFees.Text);
-
+                Manage_Students_Form.getMainForm.metroGrid1.DataSource = stud.Get_All_Students();
                 MessageBox.Show("Data Updated Successfully");
+                Close();
+
             }
-            Manage_Students_Form.getMainForm.metroGrid1.DataSource = stud.Get_All_Students();
             Close();
         }
 

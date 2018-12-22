@@ -83,5 +83,10 @@ namespace School_Project.Presentation_Layer
             Users_Manage_Form frm = new Users_Manage_Form();
             frm.ShowDialog();
         }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

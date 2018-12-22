@@ -282,14 +282,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="School Project.exe" size="5049856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="School Project.exe" size="5050368">
       <assemblyIdentity name="School Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TObzwgliGal6tHajA9McKzEG76NT38Ay1BR9a1TpSLQ=</dsig:DigestValue>
+        <dsig:DigestValue>x0mZbfsv1biOrbf2W7Wp+haXeu7MzVjM/kLiHhsCu78=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
