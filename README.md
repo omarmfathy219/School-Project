@@ -59,10 +59,3 @@ Business Layer (Working...)
 
 # Issues!!
 > - Login Form Not Closed After Login
-
-# Team Member :
-- Omar Mohammed Fathy
-- Mohamed Taha
-- Mohamed Sayed
-- Waleed Salah
-- Mohamed Hefny
