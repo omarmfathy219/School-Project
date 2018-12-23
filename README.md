@@ -55,14 +55,7 @@ Business Layer (Working...)
   ![N|Solid](https://epjjeq.by.files.1drv.com/y4mPf5ZrQ9y6sfLtWsBgWaO73Ru1lOvk7QpNVU3zklN-iUG1Qs0rDpvDzxslkmANdThvavG38XjcAkv5cOJWR8J8-i-ICVU43EVQtjClKb3EV9L_fQFzMrSqHPAapXEdLPnpOHPPB-Q5vXwdEUeuWo8NE19vhyi_AVXs-uRsw7FJSz9c43_roLUys7A3lbow-YU55mhn8EBufzurujNDBpj9A?width=415&height=368&cropmode=none)
   
   
-  ![N|Solid](https://epggqg.by.files.1drv.com/y4mYg_8bJCaGoVFp8XLBY4gSsUSJuORslhc7Q6mKr8GwV5I--QQzKjXaXSlMOMsFijkXh9Ix49Seu_K-RZ-yRudmzcvBRy2vbHjTjKLZiL71euG1gORsdjSfUsHmi6daLp6giqtZTSC5a3g0kwKsFRSnmQjVVOWSGEphffQhlZRejEionGeVRLFJcSOoeTZX3xXkdqJ8DN47Kkqi454KEmRpQ?width=538&height=356&cropmode=none)
+  ![N|Solid](https://ephk7g.by.files.1drv.com/y4mIeYe6ZUZSZ5o65GYPikPFUYsJE-mGqO8BvC9C-mxbKvapqR9g1dUKSZYbOPHXiRacxHh3CsPwHBRJMXcRtHzrQ9dh504bvjGfmGpx3QgiZrtfV9UHTMRvuQinbRwaq86Yz2uCZjlmDcQ-l0bGXVThU_RtoyXsoY5yzBOc_TU2uT57ms5GVo3t_VG5FwOA_DG-lq7iqIKA-PWYrg9i3w67Q?width=538&height=263&cropmode=none)
 
 # Issues!!
 > - Login Form Not Closed After Login
-
-# Team Member :
-- Omar Mohammed Fathy
-- Mohamed Taha
-- Mohamed Sayed
-- Waleed Salah
-- Mohamed Hefny
