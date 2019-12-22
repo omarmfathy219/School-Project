@@ -10,7 +10,7 @@ Windows Applicontion Project for University
 # Done Tasks!
 
 Database
-> - Database Creadted  
+> - Database Created  
 > - Database Diagram Created
 
 Data Access Layer (Done)
