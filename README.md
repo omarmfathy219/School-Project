@@ -20,13 +20,13 @@ Data Access Layer (Done)
 > - Read Data From Database Method Added
 > - Insert,Update,Delete into Database Method added  -------> School Project/Data Access Layer/DataAccessLayer.cs
 
-Business Layer (Working...)
+Business Layer (Done)
  > - Login Class Added -------> School Project/Business Layer/CLS_LOGIN.cs
  >- Login Form Added -------> School Project/Business Layer/LOGIN+Form.cs
  >- ADD_STUDENT Query Added
  >- VerfiyStudentID Function Added
  
- Presentation Layer (Working...)
+ Presentation Layer (Done)
 >- Main Form Added
 >- Add Student Form Added
 >- Manage Students Form Added
